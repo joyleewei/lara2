@@ -32,4 +32,8 @@ class UsersController extends Controller{
         return redirect()->route('users.show',[$user]);
     }
 
+    public function edit(Request $request,User $user){
+
+    }
+
 }

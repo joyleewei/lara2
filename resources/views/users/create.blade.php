@@ -11,7 +11,6 @@
                 <form method="POST" action="{{ route('users.store') }}">
                     <div class="form-group">
                         {{csrf_field()}}
-
                         <label for="name">名称:</label>
                         <input type="text" name="name" class="form-control" value="{{ old('name') }}">
                     </div>
